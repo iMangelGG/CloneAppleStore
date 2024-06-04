@@ -8,7 +8,7 @@ export const scrollAnimation = (position, target, isMobile, onUpdate) => {
     y: !isMobile ? -10.74 : -12.2,
     z: !isMobile ? -5.93 : -6.0,
     scrollTrigger: {
-      trigger: " .sound-section",
+      trigger: ".sound-section",
       start: "top bottom",
       end: "top top",
       scrub: 2,
@@ -21,7 +21,7 @@ export const scrollAnimation = (position, target, isMobile, onUpdate) => {
       y: !isMobile ? -1.6 : 1.9,
       z: !isMobile ? -1.08 : 0.7,
       scrollTrigger: {
-        trigger: " .sound-section",
+        trigger: ".sound-section",
         start: "top bottom",
         end: "top top",
         scrub: 2,
@@ -31,7 +31,7 @@ export const scrollAnimation = (position, target, isMobile, onUpdate) => {
     .to(".jumbotron-section", {
       opacity: 0,
       scrollTrigger: {
-        trigger: " .sound-section",
+        trigger: ".sound-section",
         start: "top bottom",
         end: "top top",
         scrub: 2,
@@ -41,7 +41,7 @@ export const scrollAnimation = (position, target, isMobile, onUpdate) => {
     .to(".sound-section-content", {
       opacity: 1,
       scrollTrigger: {
-        trigger: " .sound-section",
+        trigger: ".sound-section",
         start: "top bottom",
         end: "top top",
         scrub: 2,
@@ -53,7 +53,7 @@ export const scrollAnimation = (position, target, isMobile, onUpdate) => {
       y: !isMobile ? 5.0 : 10.95,
       z: !isMobile ? 0.01 : 0.09,
       scrollTrigger: {
-        trigger: " .display-section",
+        trigger: ".display-section",
         start: "top bottom",
         end: "top top",
         scrub: 2,
@@ -66,7 +66,7 @@ export const scrollAnimation = (position, target, isMobile, onUpdate) => {
       y: !isMobile ? 0.32 : 0.02,
       z: !isMobile ? 0.0 : -0.06,
       scrollTrigger: {
-        trigger: " .display-section",
+        trigger: ".display-section",
         start: "top bottom",
         end: "top top",
         scrub: 2,
@@ -76,7 +76,7 @@ export const scrollAnimation = (position, target, isMobile, onUpdate) => {
     .to(".display-section", {
       opacity: 1,
       scrollTrigger: {
-        trigger: " .display-section",
+        trigger: ".display-section",
         start: "top bottom",
         end: "top top",
         scrub: 2,
